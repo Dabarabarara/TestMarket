@@ -1,0 +1,25 @@
+{
+  "messageId": "0a110000-5d01-0015-60a5-08d5b16ec3d2",
+  "conversationId": "0a110000-5d01-0015-52d5-08d5b16ec3d3",
+  "sourceAddress": "rabbitmq://localhost/kontur223/bus-223-TRUNK-w3wp-beeoyyn7yrybmrjybdk5nabmb8?durable=false&autodelete=true",
+  "destinationAddress": "rabbitmq://localhost/kontur223/Rts.Platform223.Shared.Contracts.MessageQueue.Events:EntityPublished",
+  "messageType": [
+    "urn:message:Rts.Platform223.Shared.Contracts.MessageQueue.Events:EntityPublished"
+  ],
+  "message": {
+    "entityTypeId": 1,
+    "entityId": '{Entity Id}',
+    "PublishedOnOos": true
+  },
+  "headers": {},
+  "host": {
+    "machineName": "223-TRUNK",
+    "processName": "w3wp",
+    "processId": 3712,
+    "assembly": "MassTransit",
+    "assemblyVersion": "3.5.7.1082",
+    "frameworkVersion": "4.0.30319.42000",
+    "massTransitVersion": "3.5.7.1082",
+    "operatingSystemVersion": "Microsoft Windows NT 6.3.9600.0"
+  }
+}

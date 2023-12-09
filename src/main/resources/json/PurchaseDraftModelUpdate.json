@@ -1,0 +1,79 @@
+{
+  "action": "Procedure",
+  "method": "save",
+  "tid"   : 1,
+  "token" : "{Token}",
+  "type"  : "rpc",
+  "data"  :
+  [
+    {
+      "lots":
+      [
+        {
+          "date_end_contract"        : "{Contract End Date}",
+          "date_end_registration"    : "{Application End Date}",
+          "date_published"           : "{Application Start Date}",
+          "guarantee_application_set": true,
+          "guarantee_application"    : 0.03,
+          "guarantee_contract_set"   : true,
+          "guarantee_contract"       : 0.03,
+          "lot_customers"            : [ null ],
+          "lot_delivery_places"      :
+          [
+            { "address": "{Lot Delivery Place}" }
+          ],
+          "lot_units":
+          [
+            {
+              "name"       : "{Lot Goods And Services Name}",
+              "quantity"   : 0.0,
+              "can_not_qty": true,
+              "okei_code"  : "642",
+              "okved_code" : "01",
+              "okdp_code"  : "36",
+              "okpd2_code" : "36.00.11.000",
+              "okved2_code": "01.11.13"
+            }
+          ],
+          "number"                      : 1,
+          "start_price"                 : 3.0,
+          "subject"                     : "{Lot Name}",
+          "date_begin_auction"          : "{Retraiding Start Date}",
+          "date_end_first_parts_review" : "{Consideration End Date}",
+          "date_end_second_parts_review": "{Results Review Date}",
+          "for_small_or_middle"         : true,
+          "subcontractors_requirement"  : false,
+          "lot_plan_info":
+          {
+            "plan_registration_number": "2160159285",
+            "plan_guid"               : "5d735cb3-8c49-4330-87f2-ad32742a7e79",
+            "lot_plan_position"       : "COMMODITY",
+            "position_number"         : 29,
+            "position_guid"           : "d169eee2-a063-4346-a9ab-70e0eedc3f7e"
+          }
+        }
+      ],
+      "offers_wait_time"       : 0,
+      "date_applic_opened"     : "{Consideration End Date}",
+      "procedure_type"         : 3,
+      "organizer_contragent_id": 0,
+      "title"                  : "{Purchase Name}",
+      "currency"               : 643,
+      "contact_phone"          : "7-978-4782222",
+      "contact_email"          : "{Fake Email Address}",
+      "contact_person"         : "{F I O}",
+      "review_applics_city"    : "https://kontur.ru/",
+      "date_published"         : "{Application Start Date}",
+      "date_end_registration"  : "{Application End Date}",
+      "id"                     : "{Purchase Id}",
+      "send_to_oos"            : true,
+      "delivery"               :
+      {
+        "delivery_info_procedure": "{Docs Delivery Info Procedure}",
+        "start_date"             : "{Docs Delivery Start Date}",
+        "end_date"               : "{Docs Delivery End Date}",
+        "is_delivery_payment"    : false
+      }
+    }
+  ]
+}
