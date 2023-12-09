@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:purchaseNotice xsi:schemaLocation="http://zakupki.gov.ru/223/integration/schema/TFF-8.2 http://zakupki.gov.ru/223/integration/schema/TFF-8.2/purchase.xsd" xmlns="http://zakupki.gov.ru/223fz/types/1" xmlns:ns20="http://zakupki.gov.ru/223fz/purchasePlanAdditionalPosition/1" xmlns:ns21="http://zakupki.gov.ru/223fz/webRequest/1" xmlns:ns10="http://zakupki.gov.ru/223fz/purchasePlanProjectAdditionalPosition/1" xmlns:ns22="http://zakupki.gov.ru/223fz/ecp-packet/1" xmlns:ns11="http://zakupki.gov.ru/223fz/reference/1" xmlns:ns12="http://zakupki.gov.ru/223fz/stopCommodity/1" xmlns:ns13="http://zakupki.gov.ru/223fz/exclusion/1" xmlns:ns14="http://zakupki.gov.ru/223fz/typalOrderClauseList/1" xmlns:ns15="http://zakupki.gov.ru/223fz/machineryListInfo/1" xmlns:ns16="http://zakupki.gov.ru/223fz/missedNotice/1" xmlns:ns17="http://zakupki.gov.ru/223fz/revenue/1" xmlns:ns18="http://zakupki.gov.ru/223fz/orderClauseList/1" xmlns:ns19="http://zakupki.gov.ru/223fz/decisionSuspension/1" xmlns:ns2="http://zakupki.gov.ru/223fz/purchase/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns3="http://zakupki.gov.ru/223fz/dishonestSupplier/1" xmlns:ns4="http://zakupki.gov.ru/223fz/complaint/1" xmlns:ns5="http://zakupki.gov.ru/223fz/contract/1" xmlns:ns6="http://zakupki.gov.ru/223fz/notificationIssue/1" xmlns:ns7="http://zakupki.gov.ru/223fz/purchasePlan/1" xmlns:ns8="http://zakupki.gov.ru/223fz/purchasePlanProject/1" xmlns:ns9="http://zakupki.gov.ru/223fz/disagreementProtocol/1">
+	<header>
+		<guid>2b20dacd-a02d-4222-a0b7-7830e3bef7f6</guid>
+		<createDateTime>2018-10-08T16:30:14</createDateTime>
+	</header>
+	<ns2:body>
+		<ns2:item>
+			<guid>0efce74e-68b1-41e1-8725-5e7a9a658556</guid>
+			<ns2:purchaseNoticeData>
+				<ns2:guid>0efce74e-68b1-41e1-8725-5e7a9a658556</ns2:guid>
+				<ns2:createDateTime>2018-10-08T16:23:40</ns2:createDateTime>
+				<ns2:urlVSRZ>https://www.rzd.ru</ns2:urlVSRZ>
+				<ns2:name>Открытый аукцион в электронной форме</ns2:name>
+				<ns2:customer>
+					<mainInfo>
+						<fullName>ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ"</fullName>
+						<shortName>ОАО "РЖД"</shortName>
+						<iko>57708503727770801001</iko>
+						<inn>7708503727</inn>
+						<kpp>770801001</kpp>
+						<ogrn>1037739877295</ogrn>
+						<legalAddress>107174, ГОРОД МОСКВА, УЛИЦА БАСМАННАЯ НОВ., дом ДОМ 2</legalAddress>
+						<postalAddress>107174, г Москва, ул Басманная Нов., дом 2</postalAddress>
+						<phone>7-499-2629901</phone>
+						<fax>7-499-2629095</fax>
+						<email>BelozerovOlVal@yandex.ru</email>
+						<okato>45286555000</okato>
+						<okopf>12247</okopf>
+						<okopfName>Публичные акционерные общества</okopfName>
+						<okpo>00083262</okpo>
+					</mainInfo>
+				</ns2:customer>
+				<ns2:purchaseMethodCode>95157</ns2:purchaseMethodCode>
+				<ns2:purchaseCodeName>Открытый аукцион в электронной форме (по Положению ОАО "РЖД")</ns2:purchaseCodeName>
+				<ns2:placer>
+					<mainInfo>
+						<fullName>ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ"</fullName>
+						<shortName>ОАО "РЖД"</shortName>
+						<iko>57708503727770801001</iko>
+						<inn>7708503727</inn>
+						<kpp>770801001</kpp>
+						<ogrn>1037739877295</ogrn>
+						<legalAddress>107174, ГОРОД МОСКВА, УЛИЦА БАСМАННАЯ НОВ., дом ДОМ 2</legalAddress>
+						<postalAddress>107174, г Москва, ул Басманная Нов., дом 2</postalAddress>
+						<phone>7-499-2629901</phone>
+						<fax>7-499-2629095</fax>
+						<email>BelozerovOlVal@yandex.ru</email>
+						<okato>45286555000</okato>
+						<okopf>12247</okopf>
+						<okopfName>Публичные акционерные общества</okopfName>
+						<okpo>00083262</okpo>
+					</mainInfo>
+				</ns2:placer>
+				<ns2:contact>
+					<lastName>Шакиров Олег Андреевич</lastName>
+					<phone>+8 (499) 4999898</phone>
+					<fax>7-499-2629095</fax>
+					<email>1@mail.ru</email>
+				</ns2:contact>
+				<ns2:documentationDelivery>
+					<deliveryStartDateTime>2018-10-08</deliveryStartDateTime>
+					<deliveryEndDateTime>2018-10-09</deliveryEndDateTime>
+					<place>Место предоставления</place>
+					<procedure>Порядок предоставления</procedure>
+				</ns2:documentationDelivery>
+				<ns2:status>F</ns2:status>
+				<ns2:notDishonest>true</ns2:notDishonest>
+				<ns2:attachments>
+					<totalDocumentsCount>1</totalDocumentsCount>
+					<document>
+						<guid>3df77d5a-08dc-42fc-b1e3-8bd63b3c648c</guid>
+						<createDateTime>2018-10-05T14:05:44</createDateTime>
+						<fileName>Файл.pdf</fileName>
+						<description>Файл</description>
+						<content>JVBERi0xLjUNCiW1tbW1DQoxIDAgb2JqDQo8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFIvTGFu
+ZyhydS1SVSkgL1N0cnVjdFRyZWVSb290IDEzIDAgUi9NYXJrSW5mbzw8L01hcmtlZCB0cnVlPj4+
+Pg0KZW5kb2JqDQoyIDAgb2JqDQo8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1sgMyAwIFJdID4+
+dDTHoswci47lWPRTjkXHcyw6kWPRyRyLfs6x6EyORb/lWHQ2x6JzORa52I9VjVV1G5jintwB3ODd
+Vp1xBdWMBV6f7+GV7sr+Isi/AM09RD8NCmVuZHN0cmVhbQ0KZW5kb2JqDQoyMiAwIG9iag0KWyAw
+MUJDRkM0NEI+PDU1OUNDN0M1MjI5QzMzNEY4MzUyNzQwRjFCQ0ZDNDRCPl0gPj4NCnN0YXJ0eHJl
+Zg0KNDY5NTUNCiUlRU9GDQp4cmVmDQowIDANCnRyYWlsZXINCjw8L1NpemUgMjUvUm9vdCAxIDAg
+Ui9JbmZvIDEyIDAgUi9JRFs8NTU5Q0M3QzUyMjlDMzM0RjgzNTI3NDBGMUJDRkM0NEI+PDU1OUND
+N0M1MjI5QzMzNEY4MzUyNzQwRjFCQ0ZDNDRCPl0gL1ByZXYgNDY5NTUvWFJlZlN0bSA0NjY2MT4+
+DQpzdGFydHhyZWYNCjQ3NjEyDQolJUVPRg==</content>
+					</document>
+				</ns2:attachments>
+				<ns2:modificationDate>2018-10-08T16:30:14</ns2:modificationDate>
+				<ns2:saveUserId>118078</ns2:saveUserId>
+				<ns2:deliveryPlaceIndication>DIFFERENT_PLACE</ns2:deliveryPlaceIndication>
+				<ns2:emergency>false</ns2:emergency>
+				<ns2:jointPurchase>false</ns2:jointPurchase>
+				<ns2:antimonopolyDecisionTaken>false</ns2:antimonopolyDecisionTaken>
+				<ns2:applSubmisionStartDate>2018-10-08</ns2:applSubmisionStartDate>
+				<ns2:applSubmisionOrder>Порядок подачи заявок</ns2:applSubmisionOrder>
+				<ns2:applSubmisionPlace>Место подачи заявок</ns2:applSubmisionPlace>
+				<ns2:applExaminationOrder>Порядок рассмотрения заявок</ns2:applExaminationOrder>
+				<ns2:summingupOrder>Порядок подведения итогов</ns2:summingupOrder>
+				<ns2:electronicPlaceInfo>
+					<name>РТС-тендер</name>
+					<url>www.kontur.ru</url>
+					<electronicPlaceId>1698</electronicPlaceId>
+				</ns2:electronicPlaceInfo>
+				<ns2:placingProcedure>
+					<ns2:examinationPlace>Место рассмотрения заявок</ns2:examinationPlace>
+					<ns2:examinationDateTime>2018-10-08T00:00:00</ns2:examinationDateTime>
+					<ns2:summingupDateTime>2018-10-09T00:00:00</ns2:summingupDateTime>
+					<ns2:summingupPlace>Место подведения итогов</ns2:summingupPlace>
+				</ns2:placingProcedure>
+				<ns2:submissionCloseDateTime>2018-10-09T12:00:00</ns2:submissionCloseDateTime>
+				<ns2:publicationPlannedDate>2018-10-08</ns2:publicationPlannedDate>
+				<ns2:templateVersion>19</ns2:templateVersion>
+				<ns2:templateStructure>
+					<ns2:level>
+						<ns2:tabLevel>NOTICE</ns2:tabLevel>
+						<ns2:tab>
+							<tabOrdinal>1</tabOrdinal>
+							<tabName>Общая информация</tabName>
+							<fixedName>MAIN</fixedName>
+							<section>
+								<sectionOrdinal>1</sectionOrdinal>
+								<sectionName>Сведения о состоянии извещения</sectionName>
+								<fixedName>MAIN_STATUS</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>2</sectionOrdinal>
+								<sectionName>Сведения о заказчике</sectionName>
+								<fixedName>MAIN_CUSTOMER</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>3</sectionOrdinal>
+								<sectionName>Сведения об обособленном подразделении</sectionName>
+								<fixedName>MAIN_DETACHED_DEPARTMENT</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>4</sectionOrdinal>
+								<sectionName>Cведения о закупке</sectionName>
+								<fixedName>MAIN_PURCHASE</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>5</sectionOrdinal>
+								<sectionName>Требования к участникам закупки</sectionName>
+								<fixedName>MAIN_PARTICIPANT_REQUIREMENTS</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>6</sectionOrdinal>
+								<sectionName>Контактная информация</sectionName>
+								<fixedName>MAIN_CONTACTS</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>7</sectionOrdinal>
+								<sectionName>Дополнительная информация</sectionName>
+								<fixedName>MAIN_ADDITIONAL_INFO</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>8</sectionOrdinal>
+								<sectionName>Обеспечение заявок и исполнения договора</sectionName>
+							</section>
+						</ns2:tab>
+						<ns2:tab>
+							<tabOrdinal>2</tabOrdinal>
+							<tabName>Порядок проведения процедуры</tabName>
+							<fixedName>COMMISSION</fixedName>
+							<section>
+								<sectionOrdinal>1</sectionOrdinal>
+								<sectionName>Размещение извещения</sectionName>
+								<fixedName>COMMISSION_PUBLISH</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>2</sectionOrdinal>
+								<sectionName>Подача заявок</sectionName>
+								<fixedName>APPLICATIONS_SUBMISSION</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>3</sectionOrdinal>
+								<sectionName>Вскрытие заявок</sectionName>
+							</section>
+							<section>
+								<sectionOrdinal>4</sectionOrdinal>
+								<sectionName>Рассмотрение заявок</sectionName>
+								<fixedName>APPLICATIONS_EXAM</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>5</sectionOrdinal>
+								<sectionName>Обсуждение функциональных характеристик</sectionName>
+								<fixedName>FUNCTIONAL_CHARACTERISTIC</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>6</sectionOrdinal>
+								<sectionName>Обсуждение предложений о функциональных характеристиках</sectionName>
+								<fixedName>FUNCTIONAL_CHARACTERISTIC_DISCUSSION</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>7</sectionOrdinal>
+								<sectionName>Рассмотрение и оценка окончательных предложений о функциональных характеристиках</sectionName>
+								<fixedName>FUNCTIONAL_CHARACTERISTIC_ASSESSMENT_AND_FINAL_OFFER</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>8</sectionOrdinal>
+								<sectionName>Рассмотрение первых частей заявок</sectionName>
+								<fixedName>APPLICATIONS_EXAM_FIRST_PART</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>9</sectionOrdinal>
+								<sectionName>Подача ценовых предложений</sectionName>
+								<fixedName>PRICE_OFFER_SUBMISSION</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>10</sectionOrdinal>
+								<sectionName>Сопоставление ценовых предложений</sectionName>
+								<fixedName>PRICE_OFFER_COMPARISION</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>11</sectionOrdinal>
+								<sectionName>Подача дополнительных ценовых предложений</sectionName>
+								<fixedName>ADDITIONAL_PRICE_OFFER_APPLICATION</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>12</sectionOrdinal>
+								<sectionName>Сопоставление дополнительных ценовых предложений</sectionName>
+								<fixedName>ADDITIONAL_PRICE_OFFER_COMPARISION</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>13</sectionOrdinal>
+								<sectionName>Квалификационный отбор</sectionName>
+								<fixedName>QUALIFYING_SELECTION</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>14</sectionOrdinal>
+								<sectionName>Рассмотрение вторых частей заявок</sectionName>
+								<fixedName>APPLICATIONS_EXAM_SECOND_PART</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>15</sectionOrdinal>
+								<sectionName>Рассмотрение котировочных заявок</sectionName>
+								<fixedName>QUTATION_EXAMINATION_APP</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>16</sectionOrdinal>
+								<sectionName>Форма котировочной заявки</sectionName>
+								<fixedName>QUTATION_EXAMINATION_APP_FORM</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>17</sectionOrdinal>
+								<sectionName>Вскрытие конвертов</sectionName>
+								<fixedName>ENVELOPE_OPENING</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>18</sectionOrdinal>
+								<sectionName>Проведение аукциона</sectionName>
+								<fixedName>AUCTION_EXECUTION</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>19</sectionOrdinal>
+								<sectionName>Проведение аукциона в электронной форме</sectionName>
+								<fixedName>EAUCTION_EXECUTION</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>20</sectionOrdinal>
+								<sectionName>Подведение итогов</sectionName>
+								<fixedName>SUMMARIZING</fixedName>
+							</section>
+						</ns2:tab>
+						<ns2:tab>
+							<tabOrdinal>3</tabOrdinal>
+							<tabName>Список лотов</tabName>
+							<fixedName>LOTS</fixedName>
+							<section>
+								<sectionOrdinal>1</sectionOrdinal>
+								<sectionName>Сведения о лотах</sectionName>
+								<fixedName>LOTS_INFO</fixedName>
+							</section>
+						</ns2:tab>
+						<ns2:tab>
+							<tabOrdinal>4</tabOrdinal>
+							<tabName>Документация</tabName>
+							<fixedName>DOCS</fixedName>
+							<section>
+								<sectionOrdinal>1</sectionOrdinal>
+								<sectionName>Предоставление документации</sectionName>
+								<fixedName>DOCS_INFO</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>2</sectionOrdinal>
+								<sectionName>Файлы документации</sectionName>
+								<fixedName>DOCS_FILES</fixedName>
+							</section>
+						</ns2:tab>
+					</ns2:level>
+					<ns2:level>
+						<ns2:tabLevel>LOT</ns2:tabLevel>
+						<ns2:tab>
+							<tabOrdinal>1</tabOrdinal>
+							<tabName>Формирование лота</tabName>
+							<fixedName>LOT_INFORMATION</fixedName>
+							<section>
+								<sectionOrdinal>1</sectionOrdinal>
+								<sectionName>Общая информация о лоте</sectionName>
+								<fixedName>LOT_INFO</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>2</sectionOrdinal>
+								<sectionName>Сведения о начальной (максимальной) цене договора без учета НДС</sectionName>
+							</section>
+							<section>
+								<sectionOrdinal>3</sectionOrdinal>
+								<sectionName>Дата и время проведения аукциона</sectionName>
+							</section>
+							<section>
+								<sectionOrdinal>4</sectionOrdinal>
+								<sectionName>Информация о товаре, работе, услуге</sectionName>
+								<fixedName>LOT_GOODS</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>5</sectionOrdinal>
+								<sectionName>Место поставки</sectionName>
+								<fixedName>LOT_PLACE</fixedName>
+							</section>
+						</ns2:tab>
+					</ns2:level>
+					<ns2:level>
+						<ns2:tabLevel>LOT_CUSTOMER</ns2:tabLevel>
+						<ns2:tab>
+							<tabOrdinal>1</tabOrdinal>
+							<tabName>Формирование сведений по заказчику</tabName>
+							<fixedName>LOT_CUSTOMER</fixedName>
+							<section>
+								<sectionOrdinal>1</sectionOrdinal>
+								<sectionName>Общая информация по Заказчику</sectionName>
+								<fixedName>LOT_CUSTOMER_INFO</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>2</sectionOrdinal>
+								<sectionName>Информация о товаре, работе, услуге</sectionName>
+								<fixedName>LOT_CUSTOMER_GOODS</fixedName>
+							</section>
+							<section>
+								<sectionOrdinal>3</sectionOrdinal>
+								<sectionName>Место поставки</sectionName>
+								<fixedName>LOT_CUSTOMER_PLACE</fixedName>
+							</section>
+						</ns2:tab>
+					</ns2:level>
+				</ns2:templateStructure>
+				<ns2:extendFields>
+					<noticeExtendField>
+						<extendField>
+							<integrCode>MestoOrg</integrCode>
+							<description>Место нахождения</description>
+							<type>STRING</type>
+							<value>
+								<string>Место нахождения</string>
+							</value>
+						</extendField>
+						<extendField>
+							<integrCode>AdresOrg</integrCode>
+							<description>Почтовый адрес</description>
+							<type>STRING</type>
+							<value>
+								<string>Почтовый адрес</string>
+							</value>
+						</extendField>
+						<extendField>
+							<integrCode>DlyaNuzhd</integrCode>
+							<description>Закупка осуществляется для нужд</description>
+							<type>STRING</type>
+							<value>
+								<string>ОАО "РЖД"</string>
+							</value>
+						</extendField>
+						<position>
+							<tabOrdinal>1</tabOrdinal>
+							<tabName>MAIN</tabName>
+							<sectionOrdinal>2</sectionOrdinal>
+							<sectionName>MAIN_SEC_Сведения о заказчике</sectionName>
+						</position>
+					</noticeExtendField>
+					<noticeExtendField>
+						<extendField>
+							<integrCode>ObespechenieZayavki</integrCode>
+							<description>Обеспечение заявок</description>
+							<type>TEXT</type>
+							<value>
+								<text>Обеспечение заявок</text>
+							</value>
+						</extendField>
+						<extendField>
+							<integrCode>ObespechenieDogovora</integrCode>
+							<description>Обеспечение исполнения договора</description>
+							<type>TEXT</type>
+							<value>
+								<text>Обеспечение исполнения договора</text>
+							</value>
+						</extendField>
+						<position>
+							<tabOrdinal>1</tabOrdinal>
+							<tabName>MAIN</tabName>
+							<sectionOrdinal>8</sectionOrdinal>
+							<sectionName>MAIN_SEC_Обеспечение заявок и исполнения договора</sectionName>
+						</position>
+					</noticeExtendField>
+					<noticeExtendField>
+						<extendField>
+							<integrCode>VskritieData</integrCode>
+							<description>Дата и время вскрытия заявок</description>
+							<type>DATETIME</type>
+							<value>
+								<dateTime>2018-10-09T12:00:00</dateTime>
+							</value>
+						</extendField>
+						<position>
+							<tabOrdinal>2</tabOrdinal>
+							<tabName>COMMISSION</tabName>
+							<sectionOrdinal>3</sectionOrdinal>
+							<sectionName>COMISSION_SEC_Вскрытие заявок</sectionName>
+						</position>
+					</noticeExtendField>
+					<noticeExtendField>
+						<extendField>
+							<integrCode>applExaminationOrder</integrCode>
+							<description>Порядок рассмотрения заявок</description>
+							<type>TEXT</type>
+							<value>
+								<text>Порядок рассмотрения заявок</text>
+							</value>
+						</extendField>
+						<extendField>
+							<integrCode>examinationPlace</integrCode>
+							<description>Место рассмотрения заявок</description>
+							<type>TEXT</type>
+							<value>
+								<text>Место рассмотрения заявок</text>
+							</value>
+						</extendField>
+						<extendField>
+							<integrCode>examinationDateTime</integrCode>
+							<description>Дата рассмотрения заявок</description>
+							<type>DATETIME</type>
+							<value>
+								<dateTime>2018-10-08T10:00:00</dateTime>
+							</value>
+						</extendField>
+						<position>
+							<tabOrdinal>2</tabOrdinal>
+							<tabName>COMMISSION</tabName>
+							<sectionOrdinal>4</sectionOrdinal>
+							<sectionName>COMISSION_SEC_Рассмотрение заявок</sectionName>
+						</position>
+					</noticeExtendField>
+				</ns2:extendFields>
+				<rtsProcedureFields>
+						<extendField>
+							<integrCode>etzpOrganizerCode</integrCode>
+							<description>Код организатора</description>
+							<type>STRING</type>
+							<value>
+								<string>CKZ ETZP</string>
+							</value>
+						</extendField>
+						<extendField>
+							<integrCode>etzpNoticeNumber</integrCode>
+							<description>Номер процедуры</description>
+							<type>STRING</type>
+							<value>
+								<string>Rzhd - Auction With Open Access</string>
+							</value>
+						</extendField>
+						<extendField>
+							<integrCode>etzpPricingCondition</integrCode>
+							<description>Порядок формирования начальной цены</description>
+							<type>STRING</type>
+							<value>
+								<string>Начальная (максимальная) цена договора включает в себя стоимость материалов и затрат, связанных с их доставкой на объект, а также всех возможных расходов участника, связанных с выполнением работ, в том числе расходы на страхование, все виды налогов (кроме НДС) и других обязательных платежей.</string>
+							</value>
+						</extendField>
+						<extendField>
+								<integrCode>TermExplanation</integrCode>
+								<description>Срок направления запроса о разъяснении документации (дней до окончания подачи заявок)</description>
+								<type>INTEGER</type>
+								<value>
+									<integer>4</integer>
+								</value>
+						</extendField>
+						<extendField>
+								<integrCode>TermDocumentation</integrCode>
+								<description>Срок предоставления разъяснения документации</description>
+								<type>INTEGER</type>
+								<value>
+									<integer>3</integer>
+								</value>
+						</extendField>
+						<extendField>
+								<integrCode>TermExplanationResult</integrCode>
+								<description>Срок направления запроса о разъяснении результата (после подведения итогов)</description>
+								<type>INTEGER</type>
+								<value>
+									<integer>2</integer>
+								</value>
+						</extendField>
+						<extendField>
+								<integrCode>TermResult</integrCode>
+								<description>Срок предоставления разъяснения результатов</description>
+								<type>INTEGER</type>
+								<value>
+									<integer>1</integer>
+								</value>
+						</extendField>
+				</rtsProcedureFields>
+				<ns2:lots>
+					<lot>
+						<guid>3e053a53-4bdf-4d35-9658-3ace5233f73e</guid>
+						<ordinalNumber>1</ordinalNumber>
+						<lotEditEnabled>false</lotEditEnabled>
+						<lotData>
+							<subject>На право заключения договора оказания услуг по предпечатной подготовке, печати и доставке отраслевых журналов "Локомотив","Автоматика,связь,информатика","Вагоны и вагонное хозяйство","Путь и путевое хозяйство","Железнодорожный транспорт","Железные дороги мира" Центра научно-технической информации и библиотек-филиала ОАО "РЖД"</subject>
+							<currency>
+								<code>RUB</code>
+								<digitalCode>643</digitalCode>
+								<name>Российский рубль</name>
+							</currency>
+							<initialSum>67925043.21</initialSum>
+							<deliveryPlace>
+								<state>Центральный федеральный округ</state>
+								<region>Москва</region>
+								<regionOkato>45000000000</regionOkato>
+								<address>Место поставки товаров</address>
+							</deliveryPlace>
+							<lotItems>
+								<newCodes>true</newCodes>
+								<lotItem>
+									<guid>a1bfdaf6-21a7-4694-b695-2e453705f163</guid>
+									<ordinalNumber>1</ordinalNumber>
+									<okpd2>
+										<code>18.12.13.000</code>
+										<name>Услуги по печатанию журналов и периодических изданий, выходящих реже четырех раз в неделю</name>
+									</okpd2>
+									<okved2>
+										<code>58.14.1</code>
+										<name>Издание журналов и периодических публикаций в печатном виде</name>
+									</okved2>
+									<okei>
+										<code>876</code>
+										<name>Условная единица</name>
+									</okei>
+									<qty>1</qty>
+									<additionalInfo>ОКВЭД2: 43.29; 43.21; 27.12 | ОКПД2: 43.29.19.190; 43.21.10.180; 43.21.10.290</additionalInfo>
+								</lotItem>
+							</lotItems>
+							<forSmallOrMiddle>false</forSmallOrMiddle>
+							<excludePurchaseFromPlan>false</excludePurchaseFromPlan>
+							<subcontractorsRequirement>false</subcontractorsRequirement>
+							<ignoredPurchase>false</ignoredPurchase>
+							<centralized>false</centralized>
+						</lotData>
+						<deliveryPlaceIndication>GL</deliveryPlaceIndication>
+						<jointLotData>
+							<jointLot>false</jointLot>
+						</jointLotData>
+						<lotPlanInfo>
+							<planRegistrationNumber>2170253418</planRegistrationNumber>
+							<planGuid>f33f4f3c-60d9-4c8b-b296-e0b3c0b97455</planGuid>
+							<positionNumber>21194</positionNumber>
+							<lotPlanPosition>COMMODITY</lotPlanPosition>
+							<positionGuid>76b9ee09-4d1e-4cf4-8580-7483dec93525</positionGuid>
+						</lotPlanInfo>
+						<cancelled>false</cancelled>
+						<extendFields>
+							<noticeExtendField>
+								<extendField>
+									<integrCode>TsenaDog</integrCode>
+									<description>Начальная (максимальная) цена договора без учета НДС</description>
+									<type>STRING</type>
+									<value>
+										<string>500 000,00</string>
+									</value>
+								</extendField>
+								<position>
+									<tabOrdinal>1</tabOrdinal>
+									<tabName>LOT_INFORMATION</tabName>
+									<sectionOrdinal>2</sectionOrdinal>
+									<sectionName>LOT_INFO_SEC_Сведения о начальной (максимальной) цене договора без учета НДС</sectionName>
+								</position>
+							</noticeExtendField>
+							<noticeExtendField>
+								<extendField>
+									<integrCode>ItogDate</integrCode>
+									<description>Дата и время проведения аукциона</description>
+									<type>DATETIME</type>
+									<value>
+										<dateTime>2018-10-11T11:33:00</dateTime>
+									</value>
+								</extendField>
+								<position>
+									<tabOrdinal>1</tabOrdinal>
+									<tabName>LOT_INFORMATION</tabName>
+									<sectionOrdinal>3</sectionOrdinal>
+									<sectionName>LOT_INFO_SEC_Дата и время проведения аукциона</sectionName>
+								</position>
+							</noticeExtendField>
+						</extendFields>
+						<rtsLotsFields>
+							<extendField>
+									<integrCode>ContractEndDate</integrCode>
+									<description>Срок исполнения договора</description>
+									<type>STRING</type>
+									<value>
+										<string>до ноября 2018 года</string>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>BiddingRules</integrCode>
+									<description>Торги осуществляются от цены за лот/от цены за единицу/от процентной ставки</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>1</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>MaxPriceWithVAT</integrCode>
+									<description>НМЦ включает НДС</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>true</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>VATInformation</integrCode>
+									<description>Указать сведения о НДС</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>true</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>VATRate</integrCode>
+									<description>Ставка НДС</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>6</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>VATSum</integrCode>
+									<description>Сумма НДС</description>
+									<type>NUMBER</type>
+									<value>
+										<number>68913.56</number>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>MaxPriceWithoutVAT</integrCode>
+									<description>НМЦ без НДС</description>
+									<type>NUMBER</type>
+									<value>
+										<number>4302875.00</number>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>PriceAccouting</integrCode>
+									<description>При выборе победителя учитывается цена с НДС/ без НДС</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>2</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>etzpRussianGoodsPriority</integrCode>
+									<description>Установить приоритет товаров российского происхождения в соответствии с нормами ПП РФ № 925</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>false</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>PositionalCompare</integrCode>
+									<description>Попозиционное сравнение</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>false</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>WinnerCount</integrCode>
+									<description>Количество возможных победителей</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>1</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>PartPosition</integrCode>
+									<description>Возможность подачи заявки на часть позиций</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>false</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>LotSubject</integrCode>
+									<description>Наименование товара, работ, услуг</description>
+									<type>STRING</type>
+									<value>
+										<string>На право заключения договора на выполнение работ по капитальному ремонту помещений тренажерного зала в строении № 31 оздоровительного комплекса 'Рублёво'</string>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>AnyMember</integrCode>
+									<description>Заключение договора возможно с любым из допущенных участников</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>false</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>MemberSendContract</integrCode>
+									<description>Возможно направление договора участником</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>false</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>TermSendContract</integrCode>
+									<description>Срок направления договора (в днях)</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>7</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>TermSignContract</integrCode>
+									<description>Срок подписания договора участником (в днях)</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>3</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>StartSignContract</integrCode>
+									<description>Начало отсчета срока для подписания договора участником</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>2</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>ContractTerm</integrCode>
+									<description>Срок заключения договора (в днях)</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>7</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>Step</integrCode>
+									<description>Аукцион с шагом - да/нет</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>true</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>StepType</integrCode>
+									<description>Тип шага аукциона - фикс сумма/процент</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>2</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>StartStep</integrCode>
+									<description>Шаг аукциона - значениe от</description>
+									<type>NUMBER</type>
+									<value>
+										<number>0.5</number>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>EndStep</integrCode>
+									<description>Шаг аукциона - значение до</description>
+									<type>NUMBER</type>
+									<value>
+										<number>5</number>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>AutoStepReduction</integrCode>
+									<description>Автоматическое снижение шага</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>false</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>Extension</integrCode>
+									<description>Аукцион с продлением - да/нет</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>true</boolean>
+									</value>
+							</extendField>					
+							<extendField>
+									<integrCode>WaitingTime</integrCode>
+									<description>Время ожидания ценового предложения (в минутах) - целое число, время автопродления</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>10</integer>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>Improve</integrCode>
+									<description>Улучшение своего цп без снижения текущего минимального - да/нет</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>true</boolean>
+									</value>
+							</extendField>	
+							<extendField>
+									<integrCode>SecondPhase</integrCode>
+									<description>Проводить вторую фазу (торги за второе место) - да/нет</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>false</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>LowerLimit</integrCode>
+									<description>Аукцион с нижним пределом цены - да/нет</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>false</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>ShowName</integrCode>
+									<description>Показывать наименования участников - да/нет</description>
+									<type>BOOLEAN</type>
+									<value>
+										<boolean>false</boolean>
+									</value>
+							</extendField>
+							<extendField>
+									<integrCode>ProvisionBidType</integrCode>
+									<description>Вид обеспечения заявки</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>4</integer>
+									</value>
+							</extendField>
+							<extendField>
+								<integrCode>Deposit</integrCode>
+								<description>Обеспечение заявки</description>
+								<type>NUMBER</type>
+								<value>
+									<number>200.00</number>
+								</value>
+							</extendField>
+							<extendField>
+									<integrCode>ProvisionContractType</integrCode>
+									<description>Вид обеспечения договора</description>
+									<type>INTEGER</type>
+									<value>
+										<integer>4</integer>
+									</value>
+							</extendField>
+						</rtsLotsFields>
+					</lot>
+				</ns2:lots>
+			</ns2:purchaseNoticeData>
+		</ns2:item>
+	</ns2:body>
+</ns2:purchaseNotice>
